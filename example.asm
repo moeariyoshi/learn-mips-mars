@@ -1,4 +1,5 @@
     .data                   # Data segment
+# strings stored in the data segment to prompt the user and display the result
 prompt: .asciiz "Enter an integer: "
 result: .asciiz "The sum is: "
 
